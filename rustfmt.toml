@@ -1,0 +1,34 @@
+# Use 4 spaces for indentation
+hard_tabs = false
+tab_spaces = 4
+
+# Maximum line width
+max_width = 100
+
+# Import grouping and formatting
+imports_granularity = "Crate"
+group_imports = "StdExternalCrate"
+
+# Formatting preferences
+edition = "2024"
+newline_style = "Unix"
+use_small_heuristics = "Default"
+
+# Function and type formatting
+fn_single_line = false
+where_single_line = false
+
+# Comments and documentation
+wrap_comments = true
+format_code_in_doc_comments = true
+normalize_comments = true
+normalize_doc_attributes = true
+
+# Trailing elements
+trailing_comma = "Vertical"
+trailing_semicolon = true
+
+# Misc formatting
+reorder_imports = true
+reorder_modules = true
+remove_nested_parens = true
